@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Scissors, Sparkles, Heart, Star } from 'lucide-react';
+import hairImage from '../assets/Our Services/Hair.webp';
+import makeupImage from '../assets/Our Services/Makeup.webp';
 
 const services = [
   {
@@ -8,7 +10,7 @@ const services = [
     title: 'Hair Services',
     description: '• Haircut & Styling\n• Hair Coloring\n• Hair Straightening & Rebonding\n• Kerasmooth Treatment',
     icon: Scissors,
-    image: 'https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&q=80&w=800'
+    image: hairImage
   },
   {
     id: 2,
@@ -22,7 +24,7 @@ const services = [
     title: 'Makeup Services',
     description: '• Bridal Makeup\n• Pre-Wedding Makeup\n• Light/Party Makeup\n• Expert Styling',
     icon: Heart,
-    image: 'https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&q=80&w=800'
+    image: makeupImage
   },
   {
     id: 4,

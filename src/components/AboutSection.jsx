@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import aboutImage from '../assets/About Section/About.webp';
 
 const AboutSection = () => {
   return (
@@ -20,7 +21,7 @@ const AboutSection = () => {
           >
             <div className="relative rounded-3xl overflow-hidden shadow-soft aspect-[4/5] md:aspect-square">
               <img 
-                src="https://images.unsplash.com/photo-1521590832167-7bfcbaa6362d?auto=format&fit=crop&q=80&w=800" 
+                src={aboutImage} 
                 alt="Riddhi Makeover Salon Environment" 
                 className="w-full h-full object-cover"
               />
