@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Star, ShieldCheck, Sparkles } from 'lucide-react';
-import heroImage from '../assets/hero.png';
 
 const HeroSection = ({ onBookClick }) => {
   return (
@@ -9,7 +8,7 @@ const HeroSection = ({ onBookClick }) => {
       {/* Background Image & Overlay */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroImage})` }}
+        style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=2000")' }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-white/90 via-white/70 to-transparent"></div>
       </div>
