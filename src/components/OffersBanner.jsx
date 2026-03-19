@@ -18,7 +18,7 @@ const OffersBanner = ({ onBookClick }) => {
           className="flex items-center gap-3 bg-white/10 backdrop-blur-md px-5 py-2 rounded-full text-gold text-sm font-semibold tracking-wide uppercase mb-8 border border-white/20"
         >
           <Gift size={18} />
-          Special Welcome Offer
+          Welcome Offer
         </motion.div>
 
         <motion.h2
@@ -39,7 +39,7 @@ const OffersBanner = ({ onBookClick }) => {
           className="flex items-center gap-2 text-white/70 mb-10"
         >
           <Clock size={16} className="text-gold" />
-          <p className="tracking-wide text-sm font-light">Limited Time Offer. Hurry Up!</p>
+          <p className="tracking-wide text-sm font-light">Limited Time Offer – Book Now</p>
         </motion.div>
 
         <motion.div

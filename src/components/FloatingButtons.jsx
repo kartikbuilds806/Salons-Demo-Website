@@ -6,7 +6,7 @@ const FloatingButtons = () => {
     <div className="fixed bottom-6 w-full px-6 flex justify-between items-end z-40 pointer-events-none">
       {/* Call Button - Bottom Left */}
       <a 
-        href="tel:+1234567890" 
+        href="tel:+916398412288" 
         className="pointer-events-auto bg-white text-charcoal shadow-soft rounded-full p-4 hover:bg-gold hover:text-white transition-colors duration-300 md:mb-0 mb-[60px]"
         aria-label="Call Us"
       >
@@ -15,7 +15,7 @@ const FloatingButtons = () => {
 
       {/* WhatsApp Button - Bottom Right */}
       <a 
-        href="https://wa.me/1234567890?text=Hi%20I%20want%20to%20know%20more%20about%20your%20services" 
+        href="https://wa.me/916398412288?text=Hi,%20I%20want%20to%20book%20an%20appointment%20at%20Riddhi%20Makeover%20%26%20Unisex%20Salon." 
         target="_blank" 
         rel="noopener noreferrer"
         className="pointer-events-auto bg-green-500 text-white rounded-full p-4 shadow-soft hover:bg-green-600 transition-colors duration-300"

@@ -19,16 +19,16 @@ const HeroSection = ({ onBookClick }) => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="flex flex-wrap items-center gap-4 mb-6"
+          className="flex flex-wrap items-center gap-3 mb-6"
         >
           <div className="flex items-center gap-1 text-gold text-sm font-semibold bg-white/70 backdrop-blur-sm px-3 py-1.5 rounded-full shadow-sm">
             <Star size={16} fill="currentColor" /> 4.8/5 Rating
           </div>
           <div className="flex items-center gap-1 text-charcoal/80 text-sm font-medium bg-white/70 backdrop-blur-sm px-3 py-1.5 rounded-full shadow-sm">
-            <ShieldCheck size={16} className="text-gold" /> Certified Professionals
+            <ShieldCheck size={16} className="text-gold" /> Experienced Professionals
           </div>
           <div className="flex items-center gap-1 text-charcoal/80 text-sm font-medium bg-white/70 backdrop-blur-sm px-3 py-1.5 rounded-full shadow-sm">
-            <Sparkles size={16} className="text-gold" /> Hygienic Environment
+            <Sparkles size={16} className="text-gold" /> Hygienic & Safe
           </div>
         </motion.div>
 
@@ -49,7 +49,7 @@ const HeroSection = ({ onBookClick }) => {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-lg md:text-xl text-charcoal/70 mb-10 max-w-xl font-light"
         >
-          Experience premium beauty services tailored just for you. Trusted by 500+ happy clients in the heart of the city.
+          Rated <strong className="font-semibold text-charcoal">4.8★</strong> by <strong className="font-semibold text-charcoal">179+ Happy Clients</strong> in Dehradun.
         </motion.p>
 
         {/* CTAs */}

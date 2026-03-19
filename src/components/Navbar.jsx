@@ -15,6 +15,7 @@ const Navbar = ({ onBookClick }) => {
 
   const navLinks = [
     { name: 'Home', href: '#' },
+    { name: 'About', href: '#about' },
     { name: 'Services', href: '#services' },
     { name: 'Gallery', href: '#gallery' },
     { name: 'Contact', href: '#contact' },
@@ -28,8 +29,8 @@ const Navbar = ({ onBookClick }) => {
     >
       <div className="container mx-auto px-6 lg:px-12 flex justify-between items-center">
         {/* Logo */}
-        <a href="#" className="font-serif text-2xl font-bold tracking-wide text-charcoal">
-          Lumina <span className="text-gold italic font-medium">Salon</span>
+        <a href="#" className="font-serif text-xl sm:text-2xl font-bold tracking-wide text-charcoal flex flex-col pt-1">
+          Riddhi <span className="text-gold italic font-medium text-sm sm:text-lg -mt-1">Makeover</span>
         </a>
 
         {/* Desktop Nav */}

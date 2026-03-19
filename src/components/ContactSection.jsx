@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { MapPin, Phone, Clock } from 'lucide-react';
 
 const ContactSection = () => {
   return (
@@ -42,7 +42,10 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-serif text-lg font-semibold text-charcoal">Location</h4>
-                  <p className="text-charcoal/70">123 Luxury Avenue, Beauty District, New York, NY 10001</p>
+                  <p className="text-charcoal/70 leading-relaxed">
+                    Anand Tower, Shakumbri Garden,<br />
+                    Raipur, Dehradun, Uttarakhand 248008
+                  </p>
                 </div>
               </motion.div>
 
@@ -58,8 +61,8 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-serif text-lg font-semibold text-charcoal">Working Hours</h4>
-                  <p className="text-charcoal/70">Mon - Sat: 10:00 AM - 8:00 PM</p>
-                  <p className="text-charcoal/70">Sunday: Closed</p>
+                  <p className="text-charcoal/70">Open Daily</p>
+                  <p className="text-charcoal/70">10:00 AM - 8:00 PM</p>
                 </div>
               </motion.div>
 
@@ -75,11 +78,22 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-serif text-lg font-semibold text-charcoal">Contact Us</h4>
-                  <p className="text-charcoal/70">+1 234 567 890</p>
-                  <p className="text-charcoal/70 z-10 relative">info@luminasalon.com</p>
+                  <p className="text-charcoal/70">+91 63984 12288</p>
                 </div>
               </motion.div>
             </div>
+            
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.5 }}
+              className="mt-10"
+            >
+              <a href="tel:+916398412288" className="btn-primary inline-flex w-auto border border-charcoal text-charcoal hover:text-white bg-transparent">
+                Book Your Appointment Now
+              </a>
+            </motion.div>
           </div>
 
           {/* Map Placeholder */}
@@ -90,9 +104,9 @@ const ContactSection = () => {
             transition={{ duration: 0.6 }}
             className="lg:w-2/3 h-[400px] lg:h-auto min-h-[400px] rounded-3xl overflow-hidden shadow-soft relative bg-cream border border-beige"
           >
-            {/* Embedded Google Map Example */}
+            {/* Embedded Google Map Example directed roughly to Dehradun */}
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1422937950147!2d-73.98731968459391!3d40.75889497932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1621532050098!5m2!1sen!2sus" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110191.02890610998!2d77.92383853109312!3d30.325556276805096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929c356c888af%3A0x4c3562c032518799!2sDehradun%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1703080000000!5m2!1sen!2sin" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
@@ -104,9 +118,9 @@ const ContactSection = () => {
             
             <div className="absolute inset-0 pointer-events-none flex items-center justify-center">
                <div className="bg-white/80 backdrop-blur-md px-6 py-4 rounded-xl shadow-lg border border-white text-center pointer-events-auto">
-                 <h4 className="font-serif font-bold text-xl text-charcoal">Lumina Salon</h4>
-                 <p className="text-sm text-charcoal/70 mb-3">123 Luxury Avenue, NY</p>
-                 <a href="#" className="text-sm font-semibold text-gold hover:text-charcoal transition-colors">Get Directions →</a>
+                 <h4 className="font-serif font-bold text-xl text-charcoal">Riddhi Makeover</h4>
+                 <p className="text-sm text-charcoal/70 mb-3">Anand Tower, Raipur, Dehradun</p>
+                 <a href="https://maps.google.com" target="_blank" rel="noreferrer" className="text-sm font-semibold text-gold hover:text-charcoal transition-colors">Get Directions →</a>
                </div>
             </div>
           </motion.div>

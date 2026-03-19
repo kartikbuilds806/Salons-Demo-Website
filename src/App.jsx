@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
+import AboutSection from './components/AboutSection';
 import Services from './components/Services';
 import BeforeAfter from './components/BeforeAfter';
 import Testimonials from './components/Testimonials';
@@ -21,6 +22,7 @@ function App() {
       
       <main>
         <HeroSection onBookClick={() => setIsBookingOpen(true)} />
+        <AboutSection />
         <Services onBookClick={() => setIsBookingOpen(true)} />
         <BeforeAfter />
         <Testimonials />
