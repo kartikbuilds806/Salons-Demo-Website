@@ -1,8 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-import beforeImg from '../assets/Before and After image/images.jpg';
-import afterImg from '../assets/Before and After image/image-1-for-lead-collage-inside1598869575.avif';
+import bridalBefore from '../assets/Before and After image/Bridal_makeup before.png';
+import bridalAfter from '../assets/Before and After image/Bridal_makeupp after.png';
+import hairBefore from '../assets/Before and After image/Haircoloring before.png';
+import hairAfter from '../assets/Before and After image/Haircoloring after.png';
 
 const BeforeAfter = () => {
   return (
@@ -44,14 +46,14 @@ const BeforeAfter = () => {
             <div className="flex gap-2 h-64 sm:h-80 md:h-[400px] overflow-hidden rounded-xl">
               <div className="w-1/2 relative bg-gray-200">
                 <img 
-                  src={beforeImg}
+                  src={bridalBefore}
                   alt="Before" 
-                  className="w-full h-full object-cover filter grayscale"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-1/2 relative bg-gray-200">
                 <img 
-                  src={afterImg}
+                  src={bridalAfter}
                   alt="After" 
                   className="w-full h-full object-cover"
                 />
@@ -75,14 +77,14 @@ const BeforeAfter = () => {
             <div className="flex gap-2 h-64 sm:h-80 md:h-[400px] overflow-hidden rounded-xl">
               <div className="w-1/2 relative bg-gray-200">
                 <img 
-                  src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&q=80&w=800" 
+                  src={hairBefore} 
                   alt="Before" 
-                  className="w-full h-full object-cover filter grayscale"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-1/2 relative bg-gray-200">
                 <img 
-                  src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&q=80&w=800" 
+                  src={hairAfter} 
                   alt="After" 
                   className="w-full h-full object-cover"
                 />

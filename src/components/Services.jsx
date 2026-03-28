@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Scissors, Sparkles, Heart, Star } from 'lucide-react';
-import hairImage from '../assets/Our Services/Hair.webp';
-import makeupImage from '../assets/Our Gallery/unnamed (1).webp';
+import hairImage from '../assets/Our Services/HaIr_Service.png';
+import makeupImage from '../assets/Our Services/Makeup_Service.png';
 
 const services = [
   {
