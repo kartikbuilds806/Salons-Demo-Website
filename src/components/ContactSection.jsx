@@ -43,8 +43,8 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-serif text-lg font-semibold text-charcoal">Location</h4>
                   <p className="text-charcoal/70 leading-relaxed">
-                    Anand Tower, Shakumbri Garden,<br />
-                    Raipur, Dehradun, Uttarakhand 248008
+                    Indraprastha, Rajpur Road,<br />
+                    Dehradun, Uttarakhand 248001
                   </p>
                 </div>
               </motion.div>
@@ -118,8 +118,8 @@ const ContactSection = () => {
             
             <div className="absolute inset-0 pointer-events-none flex items-center justify-center">
                <div className="bg-white/80 backdrop-blur-md px-6 py-4 rounded-xl shadow-lg border border-white text-center pointer-events-auto">
-                 <h4 className="font-serif font-bold text-xl text-charcoal">Riddhi Makeover</h4>
-                 <p className="text-sm text-charcoal/70 mb-3">Anand Tower, Raipur, Dehradun</p>
+                 <h4 className="font-serif font-bold text-xl text-charcoal">Cloud 9 Unisex Saloon</h4>
+                 <p className="text-sm text-charcoal/70 mb-3">Indraprastha, Rajpur Road, Dehradun</p>
                  <a href="https://maps.google.com" target="_blank" rel="noreferrer" className="text-sm font-semibold text-gold hover:text-charcoal transition-colors">Get Directions →</a>
                </div>
             </div>

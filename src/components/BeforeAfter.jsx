@@ -21,7 +21,7 @@ const BeforeAfter = () => {
             transition={{ delay: 0.1 }}
             className="text-charcoal/70"
           >
-            See the difference our expert care makes.
+            Experience the difference with our expert services.
           </motion.p>
         </div>
 

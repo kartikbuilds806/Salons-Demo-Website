@@ -10,10 +10,10 @@ const Footer = () => {
           {/* Column 1: Info */}
           <div className="lg:col-span-1">
             <a href="#" className="font-serif text-2xl font-bold tracking-wide text-white mb-6 inline-block flex flex-col">
-              Riddhi <span className="text-gold italic font-medium text-[1.1rem] -mt-1">Makeover</span>
+              Cloud 9 <span className="text-gold italic font-medium text-[1.1rem] -mt-1">Unisex Saloon</span>
             </a>
             <p className="text-cream/60 leading-relaxed mb-6">
-              Serving Dehradun with premium beauty services, expert care, and an unforgettable luxurious experience. Look your absolute best.
+              Serving Dehradun with premium beauty services
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-cream/10 flex items-center justify-center hover:bg-gold hover:text-white transition-all" aria-label="Instagram">
@@ -44,7 +44,7 @@ const Footer = () => {
           <div>
             <h4 className="font-serif text-xl mb-6 text-gold">Contact Info</h4>
             <ul className="flex flex-col gap-3 text-cream/70">
-              <li className="leading-relaxed">Anand Tower, Shakumbri Garden,<br />Raipur, Dehradun, Uttarakhand 248008</li>
+              <li className="leading-relaxed">Indraprastha, Rajpur Road,<br />Dehradun, Uttarakhand 248001</li>
               <li className="text-gold mt-2">+91 63984 12288</li>
             </ul>
           </div>
@@ -66,7 +66,7 @@ const Footer = () => {
 
         {/* Bottom bar */}
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-cream/40">
-          <p>© 2026 Riddhi Makeover & Unisex Salon. All Rights Reserved.</p>
+          <p>© 2026 Cloud 9 Unisex Saloon. All Rights Reserved.</p>
           <div className="flex gap-4 mt-4 md:mt-0">
             <a href="#" className="hover:text-cream">Privacy Policy</a>
             <a href="#" className="hover:text-cream">Terms of Service</a>

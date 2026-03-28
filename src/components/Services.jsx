@@ -8,21 +8,21 @@ const services = [
   {
     id: 1,
     title: 'Hair Services',
-    description: '• Haircut & Styling\n• Hair Coloring\n• Hair Straightening & Rebonding\n• Kerasmooth Treatment',
+    description: '• Haircut & Styling\n• Hair Coloring\n• Hair Rebonding & Smoothening\n• Hair Spa',
     icon: Scissors,
     image: hairImage
   },
   {
     id: 2,
-    title: 'Skin & Facial',
-    description: '• Facial Treatments\n• Skin Care Services\n• Deep Cleansing\n• Rejuvenating Therapy',
+    title: 'Beauty Services',
+    description: '• Facial & Skincare\n• Waxing & Threading\n• Manicure & Pedicure',
     icon: Sparkles,
     image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: 3,
     title: 'Makeup Services',
-    description: '• Bridal Makeup\n• Pre-Wedding Makeup\n• Light/Party Makeup\n• Expert Styling',
+    description: '• Party Makeup\n• Bridal Makeup',
     icon: Heart,
     image: makeupImage
   },

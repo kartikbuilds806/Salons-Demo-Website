@@ -20,7 +20,7 @@ const BookingModal = ({ isOpen, onClose }) => {
     
     // Format message for WhatsApp
     const phoneNumber = "916398412288"; // Riddhi Makeover phone number
-    const text = `Hi, I want to book an appointment at Riddhi Makeover & Unisex Salon.%0A*Name:* ${formData.name}%0A*Phone:* ${formData.phone}%0A*Service:* ${formData.service}%0A*Date & Time:* ${formData.date} at ${formData.time}`;
+    const text = `Hi, I want to book an appointment at Cloud 9 Saloon.%0A*Name:* ${formData.name}%0A*Service:* ${formData.service}%0A*Date & Time:* ${formData.date} at ${formData.time}`;
     
     // Redirect to WhatsApp
     window.open(`https://wa.me/${phoneNumber}?text=${text}`, '_blank');
@@ -132,7 +132,7 @@ const BookingModal = ({ isOpen, onClose }) => {
                     Confirm via WhatsApp
                   </button>
                   <p className="text-xs text-center text-charcoal/50 mt-3">
-                    You will be redirected to WhatsApp to confirm your booking at Riddhi Makeover.
+                    You will be redirected to WhatsApp to confirm your booking at Cloud 9 Saloon.
                   </p>
                 </div>
               </form>

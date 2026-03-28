@@ -30,7 +30,7 @@ const Navbar = ({ onBookClick }) => {
       <div className="container mx-auto px-6 lg:px-12 flex justify-between items-center">
         {/* Logo */}
         <a href="#" className="font-serif text-xl sm:text-2xl font-bold tracking-wide text-charcoal flex flex-col pt-1">
-          Riddhi <span className="text-gold italic font-medium text-sm sm:text-lg -mt-1">Makeover</span>
+          Cloud 9 <span className="text-gold italic font-medium text-sm sm:text-lg -mt-1">Unisex Saloon</span>
         </a>
 
         {/* Desktop Nav */}

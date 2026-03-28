@@ -5,24 +5,24 @@ import { Star, Quote, Play } from 'lucide-react';
 const testimonials = [
   {
     id: 1,
-    name: 'Kshitij Kukreti',
-    text: "Quiet, comfortable and well-skilled staff. The owner was very polite too.",
+    name: 'Alka',
+    text: "Love this salon! The team is knowledgeable, creative, and always make me feel pampered.",
     rating: 5,
     type: 'text',
     image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400'
   },
   {
     id: 2,
-    name: 'Preeti Virmani',
-    text: "Best service for hair color, kerasmooth treatment, and facial.",
+    name: 'Anushka Deoli',
+    text: "My haircut turned out exactly the way I wanted. The salon was clean and well-maintained. Highly recommended!",
     rating: 5,
     type: 'text',
     image: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&q=80&w=400'
   },
   {
     id: 3,
-    name: 'Sakshi Rawat',
-    text: "Had my layered haircut done beautifully. Great experience, highly recommended!",
+    name: 'Sachin',
+    text: "Exceptional service, friendly staff, and a clean environment. Loved my haircut and styling.",
     rating: 5,
     type: 'text',
     image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=400'
@@ -73,7 +73,7 @@ const Testimonials = () => {
                 </div>
                 <div className="w-px h-12 bg-beige"></div>
                 <div>
-                  <h4 className="text-3xl font-serif text-charcoal font-bold mb-1">179+</h4>
+                  <h4 className="text-3xl font-serif text-charcoal font-bold mb-1">482+</h4>
                   <p className="text-xs uppercase tracking-widest text-charcoal/60">Reviews</p>
                 </div>
               </div>

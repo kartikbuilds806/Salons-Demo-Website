@@ -22,7 +22,7 @@ const AboutSection = () => {
             <div className="relative rounded-3xl overflow-hidden shadow-soft aspect-[4/5] md:aspect-square">
               <img 
                 src={aboutImage} 
-                alt="Riddhi Makeover Salon Environment" 
+                alt="Cloud 9 Unisex Salon Environment" 
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-charcoal/40 to-transparent"></div>
@@ -45,20 +45,20 @@ const AboutSection = () => {
           >
             <h4 className="text-gold font-semibold uppercase tracking-widest text-sm mb-3">About Us</h4>
             <h2 className="text-4xl lg:text-5xl font-serif text-charcoal mb-6 leading-tight">
-              Riddhi <span className="italic text-gold">Makeover</span> <br /> & Unisex Salon
+              Cloud 9 <span className="italic text-gold">Unisex</span> <br /> Salon
             </h2>
             
             <p className="text-charcoal/80 mb-6 leading-relaxed">
-              At <strong>Riddhi Makeover & Unisex Salon</strong>, we believe beauty is all about confidence. As a top-rated beauty salon in Raipur, Dehradun, we are known for delivering high-quality hair, skin, and makeup services.
+              At <strong>Cloud 9 Unisex Salon</strong>, we focus on enhancing your natural beauty with expert care and personalized services.
             </p>
             
             <p className="text-charcoal/80 mb-8 leading-relaxed">
-              Our team of experienced professionals provides personalized services using premium products to ensure the best results. Whether it’s a haircut, facial, or bridal makeover, we create a relaxing and satisfying experience for every client in our hygienic and safe environment.
+              Our skilled team ensures every client gets the perfect look, whether it's a haircut, styling, or complete makeover. We maintain a clean, welcoming environment where you can relax and enjoy a premium salon experience.
             </p>
 
             <div className="flex items-center gap-6">
               <div className="flex flex-col">
-                <span className="text-3xl font-serif text-charcoal font-bold">179+</span>
+                <span className="text-3xl font-serif text-charcoal font-bold">482+</span>
                 <span className="text-sm text-charcoal/60 uppercase tracking-widest mt-1">Happy Clients</span>
               </div>
               <div className="w-px h-12 bg-beige"></div>

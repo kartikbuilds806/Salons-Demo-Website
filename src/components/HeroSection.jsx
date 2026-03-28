@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Star, ShieldCheck, Sparkles } from 'lucide-react';
+import { Star, ShieldCheck, Sparkles, Heart } from 'lucide-react';
 
 const HeroSection = ({ onBookClick }) => {
   return (
@@ -25,10 +25,13 @@ const HeroSection = ({ onBookClick }) => {
             <Star size={16} fill="currentColor" /> 4.8/5 Rating
           </div>
           <div className="flex items-center gap-1 text-charcoal/80 text-sm font-medium bg-white/70 backdrop-blur-sm px-3 py-1.5 rounded-full shadow-sm">
-            <ShieldCheck size={16} className="text-gold" /> Experienced Professionals
+            <Heart size={16} className="text-gold" fill="currentColor" /> 482+ Happy Clients
           </div>
           <div className="flex items-center gap-1 text-charcoal/80 text-sm font-medium bg-white/70 backdrop-blur-sm px-3 py-1.5 rounded-full shadow-sm">
-            <Sparkles size={16} className="text-gold" /> Hygienic & Safe
+            <ShieldCheck size={16} className="text-gold" /> Skilled Professionals
+          </div>
+          <div className="flex items-center gap-1 text-charcoal/80 text-sm font-medium bg-white/70 backdrop-blur-sm px-3 py-1.5 rounded-full shadow-sm">
+            <Sparkles size={16} className="text-gold" /> Clean & Hygienic Environment
           </div>
         </motion.div>
 
@@ -49,7 +52,7 @@ const HeroSection = ({ onBookClick }) => {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-lg md:text-xl text-charcoal/70 mb-10 max-w-xl font-light"
         >
-          Rated <strong className="font-semibold text-charcoal">4.8★</strong> by <strong className="font-semibold text-charcoal">179+ Happy Clients</strong> in Dehradun.
+          Rated <strong className="font-semibold text-charcoal">4.8★</strong> by <strong className="font-semibold text-charcoal">482+ Happy Clients</strong> in Dehradun.
         </motion.p>
 
         {/* CTAs */}
