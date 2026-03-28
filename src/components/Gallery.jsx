@@ -32,14 +32,17 @@ const Gallery = () => {
               Take a peek into our world of beauty. Highlighting our best works, stunning transformations, and our luxurious studio environment.
             </motion.p>
           </div>
-          <motion.div 
+          <motion.a 
+            href="https://www.instagram.com/cloud9salon?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            target="_blank"
+            rel="noopener noreferrer"
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             className="hidden mt-6 md:mt-0 md:inline-flex items-center gap-2 text-gold font-medium border-b border-gold pb-1 hover:text-charcoal hover:border-charcoal cursor-pointer transition-colors"
           >
             Follow on Instagram
-          </motion.div>
+          </motion.a>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">

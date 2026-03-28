@@ -78,7 +78,8 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-serif text-lg font-semibold text-charcoal">Contact Us</h4>
-                  <p className="text-charcoal/70">+91 63984 12288</p>
+                  <p className="text-charcoal/70">+91 95572 39525 (Call)</p>
+                  <p className="text-charcoal/70">+91 88648 42743 (WhatsApp)</p>
                 </div>
               </motion.div>
             </div>
@@ -90,7 +91,7 @@ const ContactSection = () => {
               transition={{ delay: 0.5 }}
               className="mt-10"
             >
-              <a href="tel:+916398412288" className="btn-primary inline-flex w-auto border border-charcoal text-charcoal hover:text-white bg-transparent">
+              <a href="tel:+919557239525" className="btn-primary inline-flex w-auto border border-charcoal text-charcoal hover:text-white bg-transparent">
                 Book Your Appointment Now
               </a>
             </motion.div>

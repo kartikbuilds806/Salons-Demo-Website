@@ -16,13 +16,13 @@ const Footer = () => {
               Serving Dehradun with premium beauty services
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-cream/10 flex items-center justify-center hover:bg-gold hover:text-white transition-all" aria-label="Instagram">
+              <a href="https://www.instagram.com/cloud9salon?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-cream/10 flex items-center justify-center hover:bg-gold hover:text-white transition-all" aria-label="Instagram">
                 <Instagram size={18} />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-cream/10 flex items-center justify-center hover:bg-gold hover:text-white transition-all" aria-label="Facebook">
                 <Facebook size={18} />
               </a>
-              <a href="https://wa.me/916398412288" className="w-10 h-10 rounded-full bg-cream/10 flex items-center justify-center hover:bg-green-500 hover:text-white transition-all" aria-label="WhatsApp">
+              <a href="https://wa.me/918864842743" className="w-10 h-10 rounded-full bg-cream/10 flex items-center justify-center hover:bg-green-500 hover:text-white transition-all" aria-label="WhatsApp">
                 <MessageCircle size={18} />
               </a>
             </div>
@@ -45,7 +45,7 @@ const Footer = () => {
             <h4 className="font-serif text-xl mb-6 text-gold">Contact Info</h4>
             <ul className="flex flex-col gap-3 text-cream/70">
               <li className="leading-relaxed">Indraprastha, Rajpur Road,<br />Dehradun, Uttarakhand 248001</li>
-              <li className="text-gold mt-2">+91 63984 12288</li>
+              <li className="text-gold mt-2">+91 95572 39525 (Call) <br/> +91 88648 42743 (WA)</li>
             </ul>
           </div>
 

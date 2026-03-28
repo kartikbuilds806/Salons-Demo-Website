@@ -19,7 +19,7 @@ const BookingModal = ({ isOpen, onClose }) => {
     e.preventDefault();
     
     // Format message for WhatsApp
-    const phoneNumber = "916398412288"; // Riddhi Makeover phone number
+    const phoneNumber = "918864842743"; // Riddhi Makeover phone number
     const text = `Hi, I want to book an appointment at Cloud 9 Saloon.%0A*Name:* ${formData.name}%0A*Service:* ${formData.service}%0A*Date & Time:* ${formData.date} at ${formData.time}`;
     
     // Redirect to WhatsApp
