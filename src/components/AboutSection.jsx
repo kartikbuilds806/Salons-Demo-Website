@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import aboutImage from '../assets/About Section/About.webp';
+import aboutImage from '../assets/About Section/Salon.webp';
 
 const AboutSection = () => {
   return (

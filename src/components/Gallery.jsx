@@ -1,14 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const images = [
-  'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=800',
-  'https://images.unsplash.com/photo-1595476108010-b4d1f10d5e43?auto=format&fit=crop&q=80&w=800',
-  'https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&q=80&w=800',
-  'https://images.unsplash.com/photo-1521590832167-7bfcbaa6362d?auto=format&fit=crop&q=80&w=800',
-  'https://images.unsplash.com/photo-1516975080661-46b0ed812b71?auto=format&fit=crop&q=80&w=800',
-  'https://images.unsplash.com/photo-1620331311520-246422fd82f9?auto=format&fit=crop&q=80&w=800'
-];
+import gal1 from '../assets/Our Gallery/unnamed (1).webp';
+import gal2 from '../assets/Our Gallery/unnamed (2).webp';
+import gal3 from '../assets/Our Gallery/unnamed (3).webp';
+import gal4 from '../assets/Our Gallery/unnamed.webp';
+
+const images = [gal1, gal2, gal3, gal4];
 
 const Gallery = () => {
   return (

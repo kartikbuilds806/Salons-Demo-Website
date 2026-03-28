@@ -1,16 +1,40 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React, { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Star, ShieldCheck, Sparkles, Heart } from 'lucide-react';
 
+import heroImg1 from '../assets/Hero Section Image/360_F_218337017_QPrVHv5dTtoR8kI1k8SZd0gQT3MjkQd0.jpg';
+import heroImg2 from '../assets/Hero Section Image/barber-tools-metal-holder-blurred-salon-background-close-up-including-scissors-combs-clippers-hair-399196001.webp';
+import heroImg3 from '../assets/Hero Section Image/unnamed.webp';
+
+const heroImages = [heroImg1, heroImg2, heroImg3];
+
 const HeroSection = ({ onBookClick }) => {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prev) => (prev + 1) % heroImages.length);
+    }, 4000);
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section className="relative min-h-[90vh] flex items-center pt-20 overflow-hidden">
       {/* Background Image & Overlay */}
-      <div 
-        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=2000")' }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-r from-white/90 via-white/70 to-transparent"></div>
+      <div className="absolute inset-0 z-0 bg-charcoal overflow-hidden">
+        <AnimatePresence mode="popLayout">
+          <motion.img
+            key={currentImageIndex}
+            src={heroImages[currentImageIndex]}
+            initial={{ opacity: 0, scale: 1.05 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 1.5, ease: "easeInOut" }}
+            className="absolute inset-0 w-full h-full object-cover"
+            alt="Hero Background"
+          />
+        </AnimatePresence>
+        <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-transparent z-10"></div>
       </div>
 
       <div className="container mx-auto px-6 lg:px-12 relative z-10 flex flex-col lg:w-2/3">

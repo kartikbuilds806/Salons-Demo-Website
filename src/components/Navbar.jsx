@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import { Link, useLocation } from 'react-router-dom';
 
 const Navbar = ({ onBookClick }) => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -14,11 +15,11 @@ const Navbar = ({ onBookClick }) => {
   }, []);
 
   const navLinks = [
-    { name: 'Home', href: '#' },
-    { name: 'About', href: '#about' },
-    { name: 'Services', href: '#services' },
-    { name: 'Gallery', href: '#gallery' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Home', path: '/' },
+    { name: 'About', path: '/about' },
+    { name: 'Services', path: '/services' },
+    { name: 'Gallery', path: '/gallery' },
+    { name: 'Contact', path: '/contact' },
   ];
 
   return (
@@ -29,20 +30,20 @@ const Navbar = ({ onBookClick }) => {
     >
       <div className="container mx-auto px-6 lg:px-12 flex justify-between items-center">
         {/* Logo */}
-        <a href="#" className="font-serif text-xl sm:text-2xl font-bold tracking-wide text-charcoal flex flex-col pt-1">
+        <Link to="/" className="font-serif text-xl sm:text-2xl font-bold tracking-wide text-charcoal flex flex-col pt-1">
           Cloud 9 <span className="text-gold italic font-medium text-sm sm:text-lg -mt-1">Unisex Saloon</span>
-        </a>
+        </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8 font-medium">
           {navLinks.map((link) => (
-            <a 
+            <Link 
               key={link.name} 
-              href={link.href} 
+              to={link.path} 
               className="text-charcoal/80 hover:text-gold transition-colors text-sm uppercase tracking-widest"
             >
               {link.name}
-            </a>
+            </Link>
           ))}
         </nav>
 
@@ -68,14 +69,14 @@ const Navbar = ({ onBookClick }) => {
       {isMobileMenuOpen && (
         <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-lg border-t border-gray-100 py-4 px-6 flex flex-col gap-4 items-center">
           {navLinks.map((link) => (
-            <a 
+            <Link 
               key={link.name} 
-              href={link.href} 
+              to={link.path} 
               className="text-charcoal/80 hover:text-gold transition-colors w-full text-center py-2"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               {link.name}
-            </a>
+            </Link>
           ))}
           <button 
             onClick={() => {

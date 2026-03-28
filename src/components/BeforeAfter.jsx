@@ -1,6 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+import beforeImg from '../assets/Before and After image/images.jpg';
+import afterImg from '../assets/Before and After image/image-1-for-lead-collage-inside1598869575.avif';
+
 const BeforeAfter = () => {
   return (
     <section className="py-24 bg-blush">
@@ -41,14 +44,14 @@ const BeforeAfter = () => {
             <div className="flex gap-2 h-64 sm:h-80 md:h-[400px] overflow-hidden rounded-xl">
               <div className="w-1/2 relative bg-gray-200">
                 <img 
-                  src="https://images.unsplash.com/photo-1595476108010-b4d1f10d5e43?auto=format&fit=crop&q=80&w=800" 
+                  src={beforeImg}
                   alt="Before" 
                   className="w-full h-full object-cover filter grayscale"
                 />
               </div>
               <div className="w-1/2 relative bg-gray-200">
                 <img 
-                  src="https://images.unsplash.com/photo-1620331311520-246422fd82f9?auto=format&fit=crop&q=80&w=800" 
+                  src={afterImg}
                   alt="After" 
                   className="w-full h-full object-cover"
                 />

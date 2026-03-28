@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Scissors, Sparkles, Heart, Star } from 'lucide-react';
 import hairImage from '../assets/Our Services/Hair.webp';
-import makeupImage from '../assets/Our Services/Makeup.webp';
+import makeupImage from '../assets/Our Gallery/unnamed (1).webp';
 
 const services = [
   {
